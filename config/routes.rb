@@ -1,6 +1,7 @@
 Resume::Application.routes.draw do
   get 'welcome/index' => 'welcome#index'
   get 'welcome/data_analysis'  => 'welcome#data_analysis'
+  get 'welcome/resume'  => 'welcome#resume'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
