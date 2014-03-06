@@ -37,7 +37,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Bill Turner-Meteorologist/Programmer</a>
+          <a class="navbar-brand" href="#">Bill Turner - Meteorologist / Data Analyst</a>
         </div>
         <div class="navbar-collapse collapse">
         </div><!--/.navbar-collapse -->
@@ -47,39 +47,44 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container-fluid">
-        <h1>My name is Bill Turner, this is my online portfolio. </h1>
+        <h1>My name is Bill Turner and I am passionate about Science and Technology. Here is a small compilation of
+        some projects of mine. </h1>
       </div>
-      <img src="/images/selfportrait.png">
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-5">
-          <a href="http://mos-dashboard.herokuapp.com"><h2 style="font-size: 34px">GFS/NAM Forecast App </h2></a>
-          <p style="font-size: 20px">A Ruby on Rails web app that provides a visualization of today's GFS and NAM MOS Forecasts for weather
-          stations across the country. This project is powered by awesome open source software such as PostgreSQL and
-          the Twitter Bootstrap.
-        </div>
+      <div class="row-fluid">
         <div class="col-md-4">
-          <a href="welcome/data_analysis"><h2 style="font-size: 34px">Data Analysis</h2></a>
-          <p style="font-size: 20px">Much of meteorology involves getting computers to process and visualize
-          weather data collected during research projects and field campaigns. I have experience using Excel, Matlab,
-          Fortran, NCL, Ruby, and Javascript to either process or display large volumes of weather data in professional
-          and classroom settings.</p>
-       </div>
+        <%= image_tag("/images/selfy.jpg") %>
+        </div>
+
         <div class="col-md-3">
-          <a href="welcome/resume"><h2 style="font-size: 34px">Resume</h2></a>
+          <a href="http://mos-dashboard.herokuapp.com"><h2 style="font-size: 34px">GFS/NAM app</h2></a>
+          <p style="font-size: 20px">A Ruby on Rails web app that provides a visualization of today's GFS and NAM MOS
+            forecasts for weather stations across the country. The MOS (Model Output Statistics) is a statistical toolbox
+            that we use to process model output from high-powered weather models and MOS is USUALLY very accurate.
+        </div>
+
+        <div class="col-md-3">
+          <a href="welcome/data_analysis"><h2 style="font-size: 34px">Data Analysis</h2></a>
+          <p style="font-size: 20px">Atmospheric Scientists use a variety of high power computing languages to analyze
+          weather data. Old school languages like C or FORTRAN are used to do the heavy lifting in combination with
+          scripting languages (Matlab, Python, NCL, Ruby, Javascript) that can provide appealing data visualizations.
           </p>
         </div>
+
+        <div class="col-md-2">
+          <a href="welcome/resume"><h2 style="font-size: 34px">Resume</h2></a>
+
+        </div>
       </div>
-      <footer>
-        <p style="font-size: 20px; margin-top: 50px">This webpage is powered by Ruby on Rails and hosted by Heroku.</p>
-      </footer>
+
     </div> <!-- /container -->
 
-
-    <!-- Bootstrap core JavaScript
+      <footer>
+        <a href="http://github.com/bill-turner"><h2 style="font-size: 34px">Github</h2></a>
+      </footer>    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
