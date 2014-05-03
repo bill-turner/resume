@@ -22,13 +22,12 @@
         <div class="col-md-10">
           <a href="http://www.atmos.illinois.edu/plows/"><h2 style="font-size: 34px">PLOWS_DB</h2></a>
           <p style="font-size: 20px">I was hired as a research assistant to perform data analysis for some of the data
-          gathered on the PLOWS campaign. My focus was on the cloud microphysics probes.
-           Eventually I was tasked with creating a condensed and accessible dataset
-          that would make future data analysis for the PLOWS campaign very straightforward. I developed
-          a library of functions in matlab that serve as an interface to the gigabytes of research data that are distributed
-          across more than 50 separate datafiles. I also wrote a set of functions to quality control the liquid
-          water content data from the microphysics probes. The following pictures are examples of the matlab figures
-          created while quality controlling the data from the cloud probes...
+          gathered on the PLOWS campaign. The focus of my analysis was the cloud microphysics probe data which
+          is collected as an airplane flew through the northwest sector of winter time midlatitude cyclones. In this
+          region of the cyclone we normally find small convective towers (called turrets) at the top of the storm
+          clouds. These turrets drive the initiation of ice nuclei which eventually leads to bigger and heavier
+          ice particles that fall out of the turret due to gravity. I wrote a library of Matlab functions that
+          automate the process of collecting, filtering, and plotting microphysics data.
           </p>
           <h3 style="margin-top: 80px; ">10minute Liquid Water Content [g/m3] Comparison from PLOWS RF07</h3>
           <img src="/images/lwc_comparison.jpg" class="img-responsive" alt="Responsive image">
@@ -37,31 +36,31 @@
           <img src="/images/lwc_colormap1.jpg" class="img-responsive" alt="Responsive image">
           <h3 style="margin-top: 80px; ">Here is the next ten minutes. Look closely at the FSSP2 (upper right) graph
           for this time frame, and the previous ten minutes. The time colormap makes it very easy to pinpoint when
-          the probes were failing.</h3>
+          the probes were failing. This type of analysis is crucial to producing a quality dataset that is
+          free of unintential errors such as probe failure.</h3>
           <img src="/images/lwc_colormap2.jpg" class="img-responsive" alt="Responsive image">
         </div>
       </div>
       <div class="row-fluid">
         <div class="col-md-4">
-            <a href="http://www.atmos.illinois.edu/~turner23/mp10.html"><h2 style="font-size: 34px">FORTRAN/NCL</h2></a>
-            <p style="font-size: 20px">Click the header above to see an example of the power of FORTRAN & NCL (along with a
-            little UNIX scripting and javascript). Although FORTRAN is old, its high performance is crucial
-            to processing large data sets.</p>
-            <p style="font-size: 20px">In class we used production quality datasets such as the
-            <a href="http://www.aoml.noaa.gov/hrd/hurdat/Data_Storm.html">HURDAT2</a> hurricane dataset and also the
-            <a href="http://www.metoffice.gov.uk/hadobs/hadcrut4/">HadCRUT4</a> gridded sfc temp anomaly dataset</p>
+            <a href="http://www.atmos.illinois.edu/~turner23/DAS-VIS/"><h2 style="font-size: 34px">DAS-VIS</h2></a>
+            <p style="font-size: 20px">This is the Department of Atmospheric Science Visualization page. A group of
+            students (including myself) have teamed up with professor Bill Chapman to create a nice modern
+            looking weather forecast website. My focus was on developing the front end and the architecture of the
+            website. I used the Twitter Bootstrap as a guideline in order to create a nice looking and
+            maintainable webpage. All of the HTML and Javascript code is created by running a few
+            Ruby scripts which leads to a very modular and maintainable website.</p>
         </div>
       </div>
       <div class="row-fluid">
         <div class="col-md-4">
             <a href="http://www.youtube.com/watch?v=SixE6pG6F-0"><h2 style="font-size: 34px">UIUC ATMS Multicopter</h2></a>
             <p style="font-size: 20px">The ATMS department recently invested in a multicopter as a platform for data
-            collection. My good friend and fellow ATMS student Adam Burns has been helping me turn this copter into
-            a precision data logging machine. The copter is capable of fully autonomous flight using GPS waypoints and this
-            allows us to fly the quadcopter (and also the instrument package) remotely via a computer interface. There are
-            many different use cases for a machine like this, we plan on using it to monitor crops and also to create
-            a vertical profile of the lower atmosphere.
-            </p>
+            collection. My good friend and fellow ATMS student <a href="http://Adam-J-B.github.io">Adam Burns</a> has been helping me turn this UAV into
+            a precision data logging machine. The UAV is capable of fully autonomous flight controlled remotely
+            by a computer interface, enabling us to set GPS waypoints on the quadcopter in mid-flight.
+            There are many different use cases for a machine like this, we plan on using it to monitor crops and
+            also to create a vertical profile of the lower atmosphere.</p>
         </div>
       </div>
 </div>
