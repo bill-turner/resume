@@ -49,8 +49,12 @@
       </div>
     </div>
 
+    <!-- the "container-fluid" class is the outer frame of the 'table' of rows and columns -->
+    <!-- the row-fluid class defines a single row that has 12 slots open for columns -->
+    <!-- inside the row you define a number of columns by calling a classname like
+    <!-- 'col-md-3' , which translates to a 'column' for medium screens taking up 
+    <!-- 3 of the available 12 slots available in our row -->
     <div class="container-fluid">
-      <!-- Example row of columns -->
       <div class="row-fluid">
         <div class="col-md-4">
           <h3>Email me - bill.turner@ag-informatics.com</h3>
@@ -77,8 +81,10 @@
           <a href="http://github.com/bill-turner"><h2 style="font-size: 34px">Github</h2></a>
         </div>
 
-      </div>
+      </div><!-- end row -->
 
+      <!-- put new row here with <div class='row-fluid'> </div>
+      <!-- and then fill that up with more columns if need be!
     </div> <!-- /container -->
 
     <!-- Placed at the end of the document so the pages load faster -->
